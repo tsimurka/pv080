@@ -32,7 +32,7 @@ def fetch_website(urllib_version, url):
         http = urllib.PoolManager()
         r = http.request('GET', url)
     except:
-        print('Exception')
+        print('Exception') 
 
 
 def load_yaml(filename):
